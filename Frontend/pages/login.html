@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrepSpace Login</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <div
+      class="container d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <div class="login-card shadow">
+        <h2 class="mb-3 text-center">PrepSpace</h2>
+
+        <p class="text-center text-muted mb-4">
+          Login to continue your prep journey
+        </p>
+
+        <input
+          type="email"
+          id="email"
+          class="form-control mb-3"
+          placeholder="Enter email"
+        />
+
+        <input
+          type="password"
+          id="password"
+          class="form-control mb-3"
+          placeholder="Enter password"
+        />
+
+        <button id="loginBtn" class="btn btn-primary w-100">Login</button>
+
+        <p class="text-center mt-3">
+          Don't have an account?
+          <a href="signup.html">Signup</a>
+        </p>
+      </div>
+    </div>
+    <div
+      id="toastContainer"
+      class="toast-container position-fixed top-0 end-0 p-3"
+    ></div>
+    <script src="../js/config.js"></script>
+    <script src="../js/toast.js"></script>
+    <script src="../js/login.js"></script>
+  </body>
+</html>
