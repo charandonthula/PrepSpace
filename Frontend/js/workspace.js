@@ -278,6 +278,13 @@ addResourceBtn.addEventListener("click", async () => {
       "warning",
     );
   }
+  if (link && !content) {
+    return showToast(
+      "Please add a description for the uploaded link",
+
+      "warning",
+    );
+  }
   const formData = new FormData();
 
   formData.append("content", content);
