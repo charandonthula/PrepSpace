@@ -271,7 +271,13 @@ addResourceBtn.addEventListener("click", async () => {
   if (!content && !link && !file) {
     return showToast("Resource cannot be empty");
   }
+  if (file && !content) {
+    return showToast(
+      "Please add a description for the uploaded file",
 
+      "warning",
+    );
+  }
   const formData = new FormData();
 
   formData.append("content", content);
@@ -288,7 +294,7 @@ addResourceBtn.addEventListener("click", async () => {
     const response = await fetch(
       //`http://localhost:5000/workspace/${workspaceId}/resource`,
       `${API_BASE_URL}/workspace/${workspaceId}/resource`,
-      
+
       {
         method: "POST",
 
