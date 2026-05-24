@@ -88,7 +88,7 @@ const fetchResources = async () => {
 
             <img
 
-                src="${API_BASE_URL}/uploads/${resource.file}"
+                src="${resource.file}"
 
                 class="card-img-top"
 
@@ -136,7 +136,7 @@ const fetchResources = async () => {
 
                 <a
 
-                    href="${API_BASE_URL}/uploads/${resource.file}"
+                    href="${resource.file}"
 
                     target="_blank"
 

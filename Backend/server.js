@@ -14,7 +14,7 @@ app.use(cors());
 app.use(workspaceRoutes);
 app.use(authRoutes);
 app.use(resourceRoutes);
-app.use("/uploads", express.static("uploads"));
+//app.use("/uploads", express.static("uploads"));
 connectDB();
 
 

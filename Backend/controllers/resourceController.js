@@ -1,5 +1,4 @@
 const Resource = require("../models/Resource");
-const fs = require("fs");
 
 const createResource = async (req, res) => {
   try {
@@ -14,7 +13,8 @@ const createResource = async (req, res) => {
 
       link: req.body.link,
 
-      file: req.file ? req.file.filename : null,
+      // file: req.file ? req.file.filename : null,
+      file: req.file ? req.file.path : null,
 
       workspaceId: req.params.workspaceId,
 
@@ -57,18 +57,6 @@ const deleteResource = async (req, res) => {
       return res.status(404).json({
         message: "Resource not found",
       });
-    }
-
-    if (resource.file) {
-      fs.unlink(
-        `uploads/${resource.file}`,
-
-        (error) => {
-          if (error) {
-            console.log(error);
-          }
-        },
-      );
     }
 
     await Resource.findByIdAndDelete(req.params.resourceId);
