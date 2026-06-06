@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Site-4F46E5?style=for-the-badge&labelColor=1e1b4b)](https://prepspace-frontend.netlify.app)
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Site-4F46E5?style=for-the-badge&labelColor=1e1b4b)](https://prepspace-frontend.netlify.app/pages/login.html)
 [![Backend API](https://img.shields.io/badge/⚙️%20Backend%20API-Render-10b981?style=for-the-badge&labelColor=065f46)](https://prepspace-backend.onrender.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Source%20Code-181717?style=for-the-badge&logo=github)](https://github.com/charandonthula/PrepSpace)
 
@@ -226,7 +226,7 @@ Open `frontend/index.html` in your browser, or use a live server extension.
 
 | Service | Platform | URL |
 |:--------|:--------:|:----|
-| Frontend | ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white) | [prepspace-frontend.netlify.app](https://prepspace-frontend.netlify.app) |
+| Frontend | ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white) | [prepspace-frontend.netlify.app](https://prepspace-frontend.netlify.app/pages/login.html) |
 | Backend | ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) | [prepspace-backend.onrender.com](https://prepspace-backend.onrender.com) |
 | Database | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) | MongoDB Atlas Cloud |
 
