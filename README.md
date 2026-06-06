@@ -236,7 +236,7 @@ Open `frontend/index.html` in your browser, or use a live server extension.
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/charandonthula" width="80" style="border-radius: 50%"/>
+<img src="https://github.com/charandonthula.png" width="80" style="border-radius: 50%"/>
 
 ### Charan Donthula
 
@@ -248,11 +248,6 @@ Open `frontend/index.html` in your browser, or use a live server extension.
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
 
 <div align="center">
 
